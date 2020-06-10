@@ -7,11 +7,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <title>Healthy fresh and organic food delivered | Market Day Fresh</title>
-  <style>
-    .banner-img {
-      background: url(assets/banner_img.jpg) 0 0 no-repeat;
-    }
-  </style>
 </head>
 
 <body class="font-body bg-white antialiased text-brand text-sm">
@@ -52,7 +47,7 @@
     </nav>
   </header>
 
-  <!-- <section role="banner" class="flex flex-col-reverse items-stretch md:flex-row">
+  <section role="banner" class="flex flex-col-reverse items-stretch md:flex-row">
     <div class="bg-green-700 text-white p-6 md:p-12 lg:p-20 ">
       <h1 class="text-4xl lg:text-6xl capitalize">farm fresh delivered <br class="hidden lg:block"> to
         your door</h1>
@@ -70,106 +65,37 @@
 
     <img src="assets/banner_img.jpg" alt="" srcset="" class="block object-fill max-w-full max-h-full">
 
-  </section> -->
-
-  <section class="w-full flex hero flex-wrap flex-col-reverse md:flex-row">
-    <div class="w-full md:w-1/2 bg-green-500 text-white px-4 p-6 md:p-12 lg:p-20 lg:py-32 leading-snug pattern">
-      <div class="relative z-10">
-        <h1 class="text-4xl md:text-4xl lg:text-6xl leading-tight capitalize">farm fresh delivered <br
-            class="hidden lg:block"> to
-          your door</h1>
-        <p class="md:text-xl mt-3 md:mt-4 md:pr-12">Market Day Fresh delivers Farm Fresh &amp; 100% Organic Fruit and
-          Vegetables direct to your door Shop Fresh Produce</p>
-        <a class="btn btn-primary text-blue-500 btn-white btn-large md:table mt-6 lg:mt-12 text-blue-500 hover:text-white bg-center bg-cover bg-no-repeat"
-          href="/shop">Start shopping</a>
-      </div>
-    </div>
-    <figure class="w-full md:w-1/2 bg-center bg-cover">
-      <img src="assets/banner_img.jpg" alt="" class="w-full h-full">
-    </figure>
   </section>
 
-
-  <section class="section wrap text-center">
-    <div class="bg-green-700 text-white p-8 text-base leading-snug text-lg md:text-xl">
-      <div class="font-normal">
-        <p class="inline-block mb-2 md:mb-0">Enter your postcode and find out what day we deliver to your area:</p>
-        <input type="text" placeholder="Your your postcode"
-          class="bg-transparent border-b placeholder-white focus:outline-none text-center">
+  <section class="bg-green-800 text-white">
+    <div class="container mx-auto md:flex justify-around items-center">
+      <div class="p-4">
+        <h2 class="text-lg font-bold">Find out your market day</h2>
+        <p class="font-normal">Enter your postcode and find out what day we deliver to your area</p>
       </div>
+      <div class="md:inline-flex mx-2 px-6">
+        <input type="text" class="text-black px-10 py-3 outline-none" placeholder="Your Postcode">
+        <button type="submit" class="text-black bg-green-500 px-10 py-3">Submit</button>
+      </div>
+      <div class="md:flex">
+        <svg class="d-none md:block w-10 h-10 self-center" viewBox="0 0 32 32" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M10.6667 9.33333V4V9.33333ZM21.3333 9.33333V4V9.33333ZM9.33333 14.6667H22.6667H9.33333ZM6.66667 28H25.3333C26.0406 28 26.7189 27.719 27.219 27.219C27.719 26.7189 28 26.0406 28 25.3333V9.33333C28 8.62609 27.719 7.94781 27.219 7.44772C26.7189 6.94762 26.0406 6.66667 25.3333 6.66667H6.66667C5.95942 6.66667 5.28115 6.94762 4.78105 7.44772C4.28095 7.94781 4 8.62609 4 9.33333V25.3333C4 26.0406 4.28095 26.7189 4.78105 27.219C5.28115 27.719 5.95942 28 6.66667 28Z"
+            stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
 
+        <div class="ml-2">
+          <p class="text-lg">Your Regular Market Day is <span class="capitalize">TUESDAY</span></p>
+          <p class="text-xs">* Need it on another day? <a href="#" class="underline">Contact Us</a> and we will try and
+            arrange another day for
+            your delivery</p>
+        </div>
+      </div>
     </div>
-
   </section>
 
   <main role="main">
-    <!-- Testimonials -->
-    <section class="section bg-green-100">
-      <div class="container mx-auto lg:px-20 xl:px-24 md:pl-0 py-6 md:py-16">
-        <h4
-          class="px-6 mt-4 md:mt-0 md:mb-12 mb-6 md:text-center md:text-3xl text-2xl text-center md:text-left leading-snug">
-          Loved by thousands of <br class="md:hidden"> people all over Brisbane</h4>
-        <div class="clearfix md:px-6 2xl:px-12 flex flex-wrap justify-center">
-          <!-- Testimonial-->
-          <blockquote class="w-full md:w-1/2 lg:w-1/3 mb-4 lg:mb-0 px-3 flex flex-wrap">
-            <div class="bg-white p-8 rounded-lg shadow-md">
-              <header class="flex items-center">
-                <img src="assets/Leisa-Alford.jpeg" alt=""
-                  class="w-16 h-16 mr-6 bg-gray-400 bg-cover bg-center rounded-full">
-                <div>
-                  <span class="font-bold text-xl block" itemprop="author">Jane Doe</span>
-                  <span class="block text-gray-600 font-bold">Melbourne</span>
-                </div>
-              </header>
-              <p class="mt-8 md:text-base" itemprop="reviewBody">"Market Day Fresh provides the best fresh fruit and
-                vegetables and
-                delivers
-                them to me each week. I order a couples box, all the fruit and vegetables I need for the week!"</p>
-            </div>
-          </blockquote>
-
-          <!-- Testimonial-->
-          <blockquote class="w-full md:w-1/2 lg:w-1/3 mb-4 lg:mb-0 px-3 flex flex-wrap">
-            <div class="bg-white p-8 rounded-lg shadow-md">
-              <header class="flex items-center">
-                <img src="assets/Leisa-Alford.jpeg" alt=""
-                  class="w-16 h-16 mr-6 bg-gray-400 bg-cover bg-center rounded-full">
-                <div>
-                  <span class="font-bold text-xl block" itemprop="author">Jane Doe</span>
-                  <span class="block text-gray-600 font-bold">Melbourne</span>
-                </div>
-              </header>
-              <p class="mt-8 md:text-base" itemprop="reviewBody">"Market Day Fresh provides the best fresh fruit and
-                vegetables and
-                delivers
-                them to me each week. I order a couples box, all the fruit and vegetables I need for the week!"</p>
-            </div>
-          </blockquote>
-
-          <!-- Testimonial-->
-          <blockquote class="w-full md:w-1/2 lg:w-1/3 mb-4 lg:mb-0 px-3 flex flex-wrap">
-            <div class="bg-white p-8 rounded-lg shadow-md">
-              <header class="flex items-center">
-                <img src="assets/Leisa-Alford.jpeg" alt=""
-                  class="w-16 h-16 mr-6 bg-gray-400 bg-cover bg-center rounded-full">
-                <div>
-                  <span class="font-bold text-xl block" itemprop="author">Jane Doe</span>
-                  <span class="block text-gray-600 font-bold">Melbourne</span>
-                </div>
-              </header>
-              <p class="mt-8 md:text-base" itemprop="reviewBody">"Market Day Fresh provides the best fresh fruit and
-                vegetables and
-                delivers
-                them to me each week. I order a couples box, all the fruit and vegetables I need for the week!"</p>
-            </div>
-          </blockquote>
-
-
-
-
-        </div>
-      </div>
-    </section>
 
     <!-- Tabs -->
     <section class="text-center py-12">
@@ -182,7 +108,7 @@
         <li><a href="#">specials</a></li>
       </ul>
 
-      <div class="container flex flex-wrap justify-center">
+      <div class="container grid grid-cols-4 mx-auto">
         <!-- Item -->
         <div class="text-center border border-gray-200 p-2 m-2">
           <img src="assets/product-placeholder.jpg" alt="" class="max-w-full inline-block shadow">
@@ -243,38 +169,24 @@
       </div>
     </section>
 
-
-
-
+    <section class="bg-gray-200 container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut alias doloribus
+      aliquid
+      quibusdam, delectus sequi excepturi assumenda pariatur quas ab ut exercitationem quasi consequatur fugiat cumque!
+      Debitis repudiandae, doloribus nisi dolorem, reprehenderit aperiam exercitationem quae incidunt expedita
+      voluptatem rem harum quo sed officiis a. Quidem quas, commodi sed qui consequatur accusantium libero magni
+      perspiciatis necessitatibus corporis tempore nesciunt quod itaque ipsum ea deserunt quos dolorem iusto facere
+      quisquam provident recusandae? Numquam in, natus neque sit voluptas eius. Saepe quia quis fugit magni veniam est
+      sequi? Earum tempore hic sint suscipit nesciunt? Voluptas, aut voluptate maxime animi fuga repudiandae tempore
+      velit quisquam, aperiam laborum, eos fugiat ad! Voluptate vel dolorem ex excepturi error aut voluptas at nulla
+      repellat ratione nemo obcaecati sunt voluptatibus maxime, unde necessitatibus iure quis odio ipsa atque? Sit natus
+      quidem temporibus cum doloremque itaque quas deserunt? Omnis explicabo hic totam, a ullam libero, labore quisquam
+      voluptatum vel itaque aliquam asperiores deserunt nemo quae sed, nesciunt fugit earum impedit iste. Hic amet at
+      iste ipsum dignissimos nulla commodi. Neque debitis corrupti dicta velit harum iusto earum et eligendi veniam
+      distinctio dolores suscipit ab inventore labore rerum voluptatem perferendis voluptates exercitationem quasi
+      deleniti id, placeat odio laudantium ipsam. Nostrum?</section>
 
   </main>
 
-  <footer class="flex flex-col lg:flex-row relative items-center py-6 px-8 border-t border-gray-400">
-    <nav class="flex flex-wrap w-full text-center items-center justify-center text-xs">
-      <!-- 
-      <ul class="md:flex md:justify-between items-center m-0 space-x-5 > * font-bold capitalize leading-tight">
-        <li><a href="#" class="pb-2 transition duration-300 ease-in-out hover:text-green-700">home</a></li>
-        <li><a href="#" class="pb-2 transition duration-300 ease-in-out hover:text-green-700">Shop</a>
-        </li>
-        <li><a href="#" class="pb-2 transition duration-300 ease-in-out hover:text-green-700">Delivery</a>
-        </li>
-        <li><a href="#" class="pb-2 transition duration-300 ease-in-out hover:text-green-700">contact Us</a>
-      </ul> 
-    -->
-
-      <a class="text-blue-500 hover:text-green-400 transition px-2" href="/s/jobs" target="_help">Jobs</a><a
-        class="text-blue-500 hover:text-green-400 transition px-2"
-        href="https://help.goodclub.co.uk/en/articles/2822087-how-does-good-club-membership-work"
-        target="_help">Membership</a><a class="text-blue-500 hover:text-green-400 transition px-2" href="#"
-        target="_help">Delivery</a><a class="text-blue-500 hover:text-green-400 transition px-2" href="#"
-        target="_help">Returns</a><a class="text-blue-500 hover:text-green-400 transition px-2" href="#"
-        target="_help">Privacy</a><a class="text-blue-500 hover:text-green-400 transition px-2" href="#"
-        target="_help">Help</a> <span class="w-full text-gray-600 pt-2">
-        Got a question? <a class="text-gray-600 hover:text-blue-500 transition"
-          href="mailto:hello@marketdayfresh.com.au" target="_help">hello@marketdayfresh.com.au</a>
-      </span>
-    </nav>
-  </footer>
 
 
 </body>
