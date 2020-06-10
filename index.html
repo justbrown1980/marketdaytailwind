@@ -6,9 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-  <style>
-    .text-brand-blue {}
-  </style>
   <title>Healthy fresh and organic food delivered | Market Day Fresh</title>
 </head>
 
@@ -50,9 +47,9 @@
     </nav>
   </header>
 
-  <section role="banner" class="flex flex-col-reverse items-stretch lg:flex-row">
-    <div class="bg-green-700 text-white p-6 md:p-12 lg:p-20 leading-snug">
-      <h1 class="text-4xl lg:text-6xl leading-tight capitalize">farm fresh delivered <br class="hidden lg:block"> to
+  <section role="banner" class="flex flex-col-reverse items-stretch md:flex-row">
+    <div class="bg-green-700 text-white p-6 md:p-12 lg:p-20 ">
+      <h1 class="text-4xl lg:text-6xl capitalize">farm fresh delivered <br class="hidden lg:block"> to
         your door</h1>
       <p class="text-xl mt-3 md:mt-4 md:pr-12">Market Day Fresh delivers Farm Fresh &amp; 100% Organic Fruit and
         Vegetables direct to your door</p>
@@ -66,11 +63,34 @@
       </div>
     </div>
 
-    <picture>
-      <img src="assets/banner_img.jpg" alt="" srcset="" class="">
-    </picture>
+    <img src="assets/banner_img.jpg" alt="" srcset="" class="block object-fill max-w-full max-h-full">
 
+  </section>
 
+  <section class="bg-green-700 text-white border">
+    <div class="container mx-auto flex justify-around items-center">
+      <div class="py-4">
+        <h2 class="text-lg font-bold">Find out your market day</h2>
+        <p class="font-normal">Enter your postcode and find out what day we deliver to your area</p>
+      </div>
+      <div>
+        <input type="text" class="text-black rounded-lg px-10 py-3 outline-none" placeholder="Your Postcode">
+        <button type="submit" class="text-black bg-green-500 px-10 py-3">Submit</button>
+      </div>
+      <div class="flex">
+        <svg class="w-10 h-10 self-center" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M10.6667 9.33333V4V9.33333ZM21.3333 9.33333V4V9.33333ZM9.33333 14.6667H22.6667H9.33333ZM6.66667 28H25.3333C26.0406 28 26.7189 27.719 27.219 27.219C27.719 26.7189 28 26.0406 28 25.3333V9.33333C28 8.62609 27.719 7.94781 27.219 7.44772C26.7189 6.94762 26.0406 6.66667 25.3333 6.66667H6.66667C5.95942 6.66667 5.28115 6.94762 4.78105 7.44772C4.28095 7.94781 4 8.62609 4 9.33333V25.3333C4 26.0406 4.28095 26.7189 4.78105 27.219C5.28115 27.719 5.95942 28 6.66667 28Z"
+            stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+
+        <div class="ml-2">
+          <p class="text-lg">Your Regular Market Day is <strong class="capitalize">TUESDAY</strong></p>
+          <p class="text-xs">* Need it on another day? <u>Contact Us</u> and we will try and arrange another day for
+            your delivery</p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <main role="main">
