@@ -67,26 +67,28 @@
 
   </section>
 
-  <section class="bg-green-700 text-white border">
-    <div class="container mx-auto flex justify-around items-center">
-      <div class="py-4">
+  <section class="bg-green-800 text-white">
+    <div class="container mx-auto md:flex justify-around items-center">
+      <div class="p-4">
         <h2 class="text-lg font-bold">Find out your market day</h2>
         <p class="font-normal">Enter your postcode and find out what day we deliver to your area</p>
       </div>
-      <div>
-        <input type="text" class="text-black rounded-lg px-10 py-3 outline-none" placeholder="Your Postcode">
+      <div class="md:inline-flex mx-2 px-6">
+        <input type="text" class="text-black px-10 py-3 outline-none" placeholder="Your Postcode">
         <button type="submit" class="text-black bg-green-500 px-10 py-3">Submit</button>
       </div>
-      <div class="flex">
-        <svg class="w-10 h-10 self-center" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <div class="md:flex">
+        <svg class="d-none md:block w-10 h-10 self-center" viewBox="0 0 32 32" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
           <path
             d="M10.6667 9.33333V4V9.33333ZM21.3333 9.33333V4V9.33333ZM9.33333 14.6667H22.6667H9.33333ZM6.66667 28H25.3333C26.0406 28 26.7189 27.719 27.219 27.219C27.719 26.7189 28 26.0406 28 25.3333V9.33333C28 8.62609 27.719 7.94781 27.219 7.44772C26.7189 6.94762 26.0406 6.66667 25.3333 6.66667H6.66667C5.95942 6.66667 5.28115 6.94762 4.78105 7.44772C4.28095 7.94781 4 8.62609 4 9.33333V25.3333C4 26.0406 4.28095 26.7189 4.78105 27.219C5.28115 27.719 5.95942 28 6.66667 28Z"
             stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
 
         <div class="ml-2">
-          <p class="text-lg">Your Regular Market Day is <strong class="capitalize">TUESDAY</strong></p>
-          <p class="text-xs">* Need it on another day? <u>Contact Us</u> and we will try and arrange another day for
+          <p class="text-lg">Your Regular Market Day is <span class="capitalize">TUESDAY</span></p>
+          <p class="text-xs">* Need it on another day? <a href="#" class="underline">Contact Us</a> and we will try and
+            arrange another day for
             your delivery</p>
         </div>
       </div>
